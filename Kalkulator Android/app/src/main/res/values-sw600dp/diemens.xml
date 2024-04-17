@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_view_auto_size_max_text_size">80sp</dimen>
+    <dimen name="text_view_auto_size_min_text_size">20sp</dimen>
+    <dimen name="text_view_auto_size_step_granularity">2sp</dimen>
+</resources>

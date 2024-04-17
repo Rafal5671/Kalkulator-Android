@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Imię i Nazwisko:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rafał Owczarek"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numer indeksu:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/indexNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="240767"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa aplikacji:"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>

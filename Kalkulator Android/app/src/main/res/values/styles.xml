@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="result_style">
+        <item name="android:layout_row">0</item>
+        <item name="android:layout_rowSpan">2</item>
+        <item name="android:layout_rowWeight">2</item>
+        <item name="android:layout_column">0</item>
+        <item name= "android:layout_columnSpan">4</item>
+        <item name= "android:gravity">bottom|right</item>
+        <item name= "android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="cell_style">
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name= "android:gravity">fill</item>
+        <item name= "android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/button_border_white</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="scientific_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/button_border_white</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>
